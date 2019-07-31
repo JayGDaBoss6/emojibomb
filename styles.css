@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-image: url("https://uploads-ssl.webflow.com/5c6914f346b367f436f3c806/5d320e41b0159423dbc759ad_the_emoji_wallpaper_by_uzijin_dbmzqrs-fullview.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.mask {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    width: 80vw;
+    height: 80vh;
+    background-color: #FFE554;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 25px 22px rgba(0, 0, 0, 0.5);
+}
+.logo-container{
+    margin: 20px auto;
+    max-width:30%;
+
+}
+
+.logo{
+    max-width: 100%;
+    
+}
