@@ -5,22 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>emoji💣</title>
 </head>
 
 <body>
-    <div class="container">
+    <main class="container">
         <div class="mask">
+            <!-- BEGIN CONTENT AREA -->
             <div class="home-content">
+                <!-- LOGO -->
                 <div class="logo-container">
-                    <img src="https://uploads-ssl.webflow.com/5c6914f346b367f436f3c806/5d34c7566b1d5c4bc621bc5f_mojibomblogo.png" alt="mojibomblogo" class="logo">
+                    <img src="https://uploads-ssl.webflow.com/5c6914f346b367f436f3c806/5d34c7566b1d5c4bc621bc5f_mojibomblogo.png"
+                        alt="mojibomblogo" class="logo">
                 </div>
+                <!-- TAB TEXT -->
+                <div class="tab-area">
+                    <p class="tab-text">Build your 💣</p>
+                    <p class="tab-text">Preview your 💣</p>
+                </div>
+                <!-- SELECTED INDICATOR -->
+                <div class="selected-indicator">
+                    <hr class="selected-hr active-hr">
+                    <hr class="selected-hr">
+                </div>
+
+                <!-- TEXT INPUT -->
+                <textarea class="input" autofocus="true" type="text" placeholder="Build your bomb"
+                    class="input-box"></textarea>
+
+                <!-- OUTPUT -->
+                <div class="emoji-multipliers">
+                    <div class="multiplier-btn">
+                        <p>x10</p>
+                    </div>
+                    <div class="multiplier-btn">
+                        <p>x100</p>
+                    </div>
+                    <div class="multiplier-btn">
+                        <p>x250</p>
+                    </div>
+                    <div class="multiplier-btn">
+                        <p>x500</p>
+                    </div>
+                    <div class="multiplier-btn">
+                        <p>x1000</p>
+                    </div>
+                </div>
+
+
+                <!--COPY BUTTON-->
+                <button class="cpy-btn">
+                    Copy to clipboard
+                </button>
+
+                <button class="reset-btn">
+                    Reset
+                </button>
+
+
 
             </div>
 
         </div>
-    </div>
+    </main>
 
 </body>
 
