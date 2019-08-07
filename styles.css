@@ -168,7 +168,7 @@ body {
 .cpy-btn,
 .reset-btn {
     width: 65%;
-    height: 4vh;
+    height: 4vhh;
     margin: 0 auto;
     display: block;
     background: #fff;
@@ -200,9 +200,25 @@ body {
 
 }
 
+.no-show{
+display:none;
+}
 
 
+.prev-display{
+    padding:5px;
+    font-size:2vw;
+    background-color: #fff;
+    width:65%;
+    height:8vh;
+    margin:0 auto;
+    border-radius:5px;
+    overflow:auto;
+}
 
+.cpy-btn:nth-child(n+2){
+    margin-top:30px;
+}
 /* MOBILE LAYOUT STYLES */
 @media only screen and (max-width: 768px) {
 

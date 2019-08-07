@@ -31,38 +31,63 @@
                     <hr class="selected-hr">
                 </div>
 
-                <!-- TEXT INPUT -->
-                <textarea class="input" autofocus="true" type="text" placeholder="Build your bomb"
-                    class="input-box"></textarea>
 
-                <!-- OUTPUT -->
-                <div class="emoji-multipliers">
-                    <div class="multiplier-btn">
-                        <p>x10</p>
+
+                <div class="build-sect">
+
+                    <!-- TEXT INPUT -->
+                    <textarea id="input-area" class="input" autofocus="true" type="text" placeholder="Build your bomb"
+                        class="input-box"></textarea>
+
+                    <!-- OUTPUT -->
+                    <div class="emoji-multipliers">
+                        <div class="multiplier-btn">
+                            <p class="multiple">x10</p>
+                        </div>
+                        <div class="multiplier-btn">
+                            <p class="multiple">x100</p>
+                        </div>
+                        <div class="multiplier-btn">
+                            <p class="multiple">x250</p>
+                        </div>
+                        <div class="multiplier-btn">
+                            <p class="multiple">x500</p>
+                        </div>
+                        <div class="multiplier-btn">
+                            <p class="multiple">x1000</p>
+                        </div>
                     </div>
-                    <div class="multiplier-btn">
-                        <p>x100</p>
-                    </div>
-                    <div class="multiplier-btn">
-                        <p>x250</p>
-                    </div>
-                    <div class="multiplier-btn">
-                        <p>x500</p>
-                    </div>
-                    <div class="multiplier-btn">
-                        <p>x1000</p>
+
+
+
+                    <!--COPY BUTTON-->
+
+                    <div class="prev-btns">
+                        <button id="cpy-btn" class="cpy-btn">
+                            Copy to clipboard
+                        </button>
+                        <button id="reset-btn" class="reset-btn">
+                            Reset
+                        </button>
                     </div>
                 </div>
 
 
-                <!--COPY BUTTON-->
-                <button class="cpy-btn">
-                    Copy to clipboard
-                </button>
 
-                <button class="reset-btn">
-                    Reset
-                </button>
+
+                <div class="prev-sect no-show">
+                    <p class="prev-display"></p>
+                    <button class="cpy-btn">
+                        Copy to clipboard
+                    </button>
+                    <button  class="reset-btn">
+                        Reset
+                    </button>
+                </div>
+
+
+
+
 
 
 
@@ -70,7 +95,7 @@
 
         </div>
     </main>
-
+    <script src="logic.js"></script>
 </body>
 
 </html>
